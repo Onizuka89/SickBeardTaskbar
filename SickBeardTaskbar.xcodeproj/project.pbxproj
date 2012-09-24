@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6468DFFB1610CEA600149459 /* sick_beard_index.png in Resources */ = {isa = PBXBuildFile; fileRef = 6468DFFA1610CEA600149459 /* sick_beard_index.png */; };
-		6468E0091610D76200149459 /* icon.icns in Frameworks */ = {isa = PBXBuildFile; fileRef = 6468E0081610D76200149459 /* icon.icns */; };
+		6468E00A1610D83800149459 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6468E0081610D76200149459 /* icon.icns */; };
 		64B0C25016105B9600CCCDDA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B0C24F16105B9600CCCDDA /* Cocoa.framework */; };
 		64B0C25216105B9600CCCDDA /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B0C25116105B9600CCCDDA /* AppleScriptObjC.framework */; };
 		64B0C25C16105B9600CCCDDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64B0C25A16105B9600CCCDDA /* InfoPlist.strings */; };
@@ -21,7 +21,7 @@
 
 /* Begin PBXFileReference section */
 		6468DFFA1610CEA600149459 /* sick_beard_index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sick_beard_index.png; sourceTree = "<group>"; };
-		6468E0081610D76200149459 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		6468E0081610D76200149459 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
 		64B0C24B16105B9600CCCDDA /* SickBeardTaskbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SickBeardTaskbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B0C24F16105B9600CCCDDA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		64B0C25116105B9600CCCDDA /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
@@ -46,7 +46,6 @@
 			files = (
 				64B0C25016105B9600CCCDDA /* Cocoa.framework in Frameworks */,
 				64B0C25216105B9600CCCDDA /* AppleScriptObjC.framework in Frameworks */,
-				6468E0091610D76200149459 /* icon.icns in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +55,6 @@
 		64B0C24016105B9600CCCDDA = {
 			isa = PBXGroup;
 			children = (
-				6468E0081610D76200149459 /* icon.icns */,
 				64B0C25716105B9600CCCDDA /* SickBeardTaskbar */,
 				64B0C24E16105B9600CCCDDA /* Frameworks */,
 				64B0C24C16105B9600CCCDDA /* Products */,
@@ -94,6 +92,7 @@
 		64B0C25716105B9600CCCDDA /* SickBeardTaskbar */ = {
 			isa = PBXGroup;
 			children = (
+				6468E0081610D76200149459 /* icon.icns */,
 				64B0C26316105B9600CCCDDA /* SBTAppDelegate.applescript */,
 				64B0C26516105B9600CCCDDA /* MainMenu.xib */,
 				6468DFFA1610CEA600149459 /* sick_beard_index.png */,
@@ -172,6 +171,7 @@
 				64B0C26216105B9600CCCDDA /* Credits.rtf in Resources */,
 				64B0C26716105B9600CCCDDA /* MainMenu.xib in Resources */,
 				6468DFFB1610CEA600149459 /* sick_beard_index.png in Resources */,
+				6468E00A1610D83800149459 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
