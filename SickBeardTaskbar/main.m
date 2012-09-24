@@ -9,9 +9,17 @@
 #import <Cocoa/Cocoa.h>
 
 #import <AppleScriptObjC/AppleScriptObjC.h>
+#import "Menulet.h"
+
 
 int main(int argc, char *argv[])
 {
+    
     [[NSBundle mainBundle] loadAppleScriptObjectiveCScripts];
+    //[Menulet showMenuIcon];
+    puts("Reached");
+    
     return NSApplicationMain(argc, (const char **)argv);
 }
+
+
