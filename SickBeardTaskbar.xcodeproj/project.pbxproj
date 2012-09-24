@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64B0C25016105B9600CCCDDA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B0C24F16105B9600CCCDDA /* Cocoa.framework */; };
+		64B0C25216105B9600CCCDDA /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B0C25116105B9600CCCDDA /* AppleScriptObjC.framework */; };
+		64B0C25C16105B9600CCCDDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64B0C25A16105B9600CCCDDA /* InfoPlist.strings */; };
+		64B0C25E16105B9600CCCDDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0C25D16105B9600CCCDDA /* main.m */; };
+		64B0C26216105B9600CCCDDA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 64B0C26016105B9600CCCDDA /* Credits.rtf */; };
+		64B0C26416105B9600CCCDDA /* SBTAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 64B0C26316105B9600CCCDDA /* SBTAppDelegate.applescript */; };
+		64B0C26716105B9600CCCDDA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B0C26516105B9600CCCDDA /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64B0C24B16105B9600CCCDDA /* SickBeardTaskbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SickBeardTaskbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B0C24F16105B9600CCCDDA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		64B0C25116105B9600CCCDDA /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		64B0C25416105B9600CCCDDA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		64B0C25516105B9600CCCDDA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		64B0C25616105B9600CCCDDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64B0C25916105B9600CCCDDA /* SickBeardTaskbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SickBeardTaskbar-Info.plist"; sourceTree = "<group>"; };
+		64B0C25B16105B9600CCCDDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64B0C25D16105B9600CCCDDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64B0C25F16105B9600CCCDDA /* SickBeardTaskbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SickBeardTaskbar-Prefix.pch"; sourceTree = "<group>"; };
+		64B0C26116105B9600CCCDDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		64B0C26316105B9600CCCDDA /* SBTAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = SBTAppDelegate.applescript; sourceTree = "<group>"; };
+		64B0C26616105B9600CCCDDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64B0C24816105B9600CCCDDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B0C25016105B9600CCCDDA /* Cocoa.framework in Frameworks */,
+				64B0C25216105B9600CCCDDA /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64B0C24016105B9600CCCDDA = {
+			isa = PBXGroup;
+			children = (
+				64B0C25716105B9600CCCDDA /* SickBeardTaskbar */,
+				64B0C24E16105B9600CCCDDA /* Frameworks */,
+				64B0C24C16105B9600CCCDDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64B0C24C16105B9600CCCDDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64B0C24B16105B9600CCCDDA /* SickBeardTaskbar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64B0C24E16105B9600CCCDDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64B0C24F16105B9600CCCDDA /* Cocoa.framework */,
+				64B0C25116105B9600CCCDDA /* AppleScriptObjC.framework */,
+				64B0C25316105B9600CCCDDA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64B0C25316105B9600CCCDDA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64B0C25416105B9600CCCDDA /* AppKit.framework */,
+				64B0C25516105B9600CCCDDA /* CoreData.framework */,
+				64B0C25616105B9600CCCDDA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		64B0C25716105B9600CCCDDA /* SickBeardTaskbar */ = {
+			isa = PBXGroup;
+			children = (
+				64B0C26316105B9600CCCDDA /* SBTAppDelegate.applescript */,
+				64B0C26516105B9600CCCDDA /* MainMenu.xib */,
+				64B0C25816105B9600CCCDDA /* Supporting Files */,
+			);
+			path = SickBeardTaskbar;
+			sourceTree = "<group>";
+		};
+		64B0C25816105B9600CCCDDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B0C25916105B9600CCCDDA /* SickBeardTaskbar-Info.plist */,
+				64B0C25A16105B9600CCCDDA /* InfoPlist.strings */,
+				64B0C25D16105B9600CCCDDA /* main.m */,
+				64B0C25F16105B9600CCCDDA /* SickBeardTaskbar-Prefix.pch */,
+				64B0C26016105B9600CCCDDA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64B0C24A16105B9600CCCDDA /* SickBeardTaskbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B0C26A16105B9600CCCDDA /* Build configuration list for PBXNativeTarget "SickBeardTaskbar" */;
+			buildPhases = (
+				64B0C24716105B9600CCCDDA /* Sources */,
+				64B0C24816105B9600CCCDDA /* Frameworks */,
+				64B0C24916105B9600CCCDDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SickBeardTaskbar;
+			productName = SickBeardTaskbar;
+			productReference = 64B0C24B16105B9600CCCDDA /* SickBeardTaskbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64B0C24216105B9600CCCDDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SBT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Stian Drøbak";
+			};
+			buildConfigurationList = 64B0C24516105B9600CCCDDA /* Build configuration list for PBXProject "SickBeardTaskbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64B0C24016105B9600CCCDDA;
+			productRefGroup = 64B0C24C16105B9600CCCDDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64B0C24A16105B9600CCCDDA /* SickBeardTaskbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64B0C24916105B9600CCCDDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B0C25C16105B9600CCCDDA /* InfoPlist.strings in Resources */,
+				64B0C26216105B9600CCCDDA /* Credits.rtf in Resources */,
+				64B0C26716105B9600CCCDDA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64B0C24716105B9600CCCDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B0C25E16105B9600CCCDDA /* main.m in Sources */,
+				64B0C26416105B9600CCCDDA /* SBTAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64B0C25A16105B9600CCCDDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B0C25B16105B9600CCCDDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64B0C26016105B9600CCCDDA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B0C26116105B9600CCCDDA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		64B0C26516105B9600CCCDDA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B0C26616105B9600CCCDDA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64B0C26816105B9600CCCDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64B0C26916105B9600CCCDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64B0C26B16105B9600CCCDDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SickBeardTaskbar/SickBeardTaskbar-Prefix.pch";
+				INFOPLIST_FILE = "SickBeardTaskbar/SickBeardTaskbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64B0C26C16105B9600CCCDDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SickBeardTaskbar/SickBeardTaskbar-Prefix.pch";
+				INFOPLIST_FILE = "SickBeardTaskbar/SickBeardTaskbar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64B0C24516105B9600CCCDDA /* Build configuration list for PBXProject "SickBeardTaskbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B0C26816105B9600CCCDDA /* Debug */,
+				64B0C26916105B9600CCCDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B0C26A16105B9600CCCDDA /* Build configuration list for PBXNativeTarget "SickBeardTaskbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B0C26B16105B9600CCCDDA /* Debug */,
+				64B0C26C16105B9600CCCDDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64B0C24216105B9600CCCDDA /* Project object */;
+}

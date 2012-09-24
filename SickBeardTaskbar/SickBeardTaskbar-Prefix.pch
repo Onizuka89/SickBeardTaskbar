@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SickBeardTaskbar' target in the 'SickBeardTaskbar' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
