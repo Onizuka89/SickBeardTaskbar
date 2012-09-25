@@ -5,7 +5,7 @@ It was made mainly because I did not want to have a terminal window running (it'
 **IMPORTANT!**
 You are using this app on your own *risk*. There is no guarantee that this app will run on your computer.
 This software is not developed by the developers of SickBeard, and is only a third-party application.
-This software uses a images from SickBeard to make it easy to understand that it is used with SickBeard, but it is NOT SickBeard! It is not to confuse you into thinking it SickBeard, or that it was developed by people behind SickBeard.
+This software uses a images from SickBeard to make it easy to understand that it is used with SickBeard, but it is NOT SickBeard! It is not to confuse you into thinking it is SickBeard, or that it was developed by people behind SickBeard.
 
 **How to use**
 - Install SickBeard
@@ -18,4 +18,7 @@ This software uses a images from SickBeard to make it easy to understand that it
 - To quit SickBeard (and SickBeardTaskbar) press the SickBeard icon in your statusbar and click Quit.
 
 **TODO's (if anyone get's around to it)**
-- Add option to select a custom folder.
+- Add a "Preferences" item, for opening a preferences window.
+- Add choose the location of the SickBeard folder (for those who store it in a different folder) to preferences window
+- Add URL to SickBeard in Preferences
+- Add "Open" item to open SickBeard
