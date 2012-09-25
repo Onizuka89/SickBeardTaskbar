@@ -28,7 +28,7 @@ script SBTAppDelegate
 	on applicationShouldTerminate_(sender)
 		-- Insert code here to do any housekeeping before your application quits
         try
-            do shell script "kill `ps -ax | grep -e 'python .*sickbeard.py' | grep -v 'grep' | awk '{print $1}'`"
+            do shell script "kill `ps -ax | grep -e 'python .*SickBeard.py' | grep -v 'grep' | awk '{print $1}'`"
         on error
             display dialog "Unable to find and terminate process, it might not exist"
         end try
