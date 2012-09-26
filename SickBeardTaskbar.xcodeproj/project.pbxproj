@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6468DFFB1610CEA600149459 /* sick_beard_index.png in Resources */ = {isa = PBXBuildFile; fileRef = 6468DFFA1610CEA600149459 /* sick_beard_index.png */; };
 		6468E00A1610D83800149459 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6468E0081610D76200149459 /* icon.icns */; };
+		64719DF21612835E00010879 /* sick_beard_index.png in Resources */ = {isa = PBXBuildFile; fileRef = 64719DF11612835E00010879 /* sick_beard_index.png */; };
 		64B0C25016105B9600CCCDDA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B0C24F16105B9600CCCDDA /* Cocoa.framework */; };
 		64B0C25216105B9600CCCDDA /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B0C25116105B9600CCCDDA /* AppleScriptObjC.framework */; };
 		64B0C25C16105B9600CCCDDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64B0C25A16105B9600CCCDDA /* InfoPlist.strings */; };
@@ -20,8 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6468DFFA1610CEA600149459 /* sick_beard_index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sick_beard_index.png; sourceTree = "<group>"; };
 		6468E0081610D76200149459 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
+		64719DF11612835E00010879 /* sick_beard_index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sick_beard_index.png; sourceTree = "<group>"; };
 		64B0C24B16105B9600CCCDDA /* SickBeardTaskbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SickBeardTaskbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B0C24F16105B9600CCCDDA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		64B0C25116105B9600CCCDDA /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
@@ -95,7 +95,7 @@
 				6468E0081610D76200149459 /* icon.icns */,
 				64B0C26316105B9600CCCDDA /* SBTAppDelegate.applescript */,
 				64B0C26516105B9600CCCDDA /* MainMenu.xib */,
-				6468DFFA1610CEA600149459 /* sick_beard_index.png */,
+				64719DF11612835E00010879 /* sick_beard_index.png */,
 				64B0C25816105B9600CCCDDA /* Supporting Files */,
 				64B0C26D1610698D00CCCDDA /* Menulet.h */,
 				64B0C26E1610698D00CCCDDA /* Menulet.m */,
@@ -170,8 +170,8 @@
 				64B0C25C16105B9600CCCDDA /* InfoPlist.strings in Resources */,
 				64B0C26216105B9600CCCDDA /* Credits.rtf in Resources */,
 				64B0C26716105B9600CCCDDA /* MainMenu.xib in Resources */,
-				6468DFFB1610CEA600149459 /* sick_beard_index.png in Resources */,
 				6468E00A1610D83800149459 /* icon.icns in Resources */,
+				64719DF21612835E00010879 /* sick_beard_index.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
