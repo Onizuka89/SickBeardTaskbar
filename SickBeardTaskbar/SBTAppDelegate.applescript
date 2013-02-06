@@ -8,6 +8,7 @@
 
 script SBTAppDelegate
 	property parent : class "NSObject"
+    property statusBar : class "statusItem"
 	
 	on applicationWillFinishLaunching_(aNotification)
 		-- Insert code here to initialize your application before any files are opened
@@ -17,18 +18,42 @@ script SBTAppDelegate
         set prefix to ("python " as text)
         set postfix to ("SickBeard.py > /dev/null 2>&1 &" as text)
         set aScript to prefix&aFolder&postfix
+        -- switch when doing actual test, or release compilations
         do shell script aScript
-        -- set x to do shell script "ping google.com > /dev/null 2>&1 &"
+        --set x to do shell script "ping google.com > /dev/null 2>&1 &"
 	end applicationWillFinishLaunching_
 
+    on openSickBeardPage_(sender)
+        
+        -- A test to prevent opening closed browser if one is open
+        set aBrowser to ""
+        if appIsRunning("Firefox")
+            set aBrowser to "-a Firefox "
+        else if appIsRunning("Safari")
+            set aBrowser to "-a Safari "
+        else if appIsRunning("Google Chrome")
+            set aBrowser to "-a 'Google Chrome' "
+        end if
+        set aPort to do shell script "grep -i 'web_port' /Applications/Sick-Beard/config.ini | sed s/'web_port = '//g"
+        set aHost to do shell script "grep -i 'web_host' /Applications/Sick-Beard/config.ini | sed s/'web_host = '//g | sed s/'0.0.0.0'/'localhost'/"
+        set prefix to "http://"
+        set aCombiner to ":"
+        set aCommand to "open "
+        set runThis to aCommand & aBrowser & prefix & aHost & aCombiner & aPort
+        do shell script runThis
+    end
     
-
-	
+    on appIsRunning(appName)
+        tell application "System Events" to (name of processes) contains appName
+    end appIsRunning
     
 	on applicationShouldTerminate_(sender)
 		-- Insert code here to do any housekeeping before your application quits
         try
+            -- actual
             do shell script "kill `ps -ax | grep -e 'python .*SickBeard.py' | grep -v 'grep' | awk '{print $1}'`"
+            -- debug
+            -- do shell script "echo ''"
         on error
             display dialog "Unable to find and terminate process, it might not exist"
         end try

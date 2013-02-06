@@ -21,6 +21,8 @@
     [statusItem setToolTip:@"Click for options"];
     
     theMenu = [[NSMenu alloc] initWithTitle:@"SBT"];
+    [theMenu addItemWithTitle:@"Show Sick-Beard" action:@selector(openSickBeardPage:) keyEquivalent:@"A"];
+    [theMenu addItemWithTitle:@"Edit" action:@selector(openSick) keyEquivalent:@"E"];
     [theMenu addItemWithTitle:@"Quit" action:@selector(terminate:) keyEquivalent:@"Q"];
     [statusItem setMenu:theMenu];
     return statusItem;

@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     
     [[NSBundle mainBundle] loadAppleScriptObjectiveCScripts];
     //[Menulet showMenuIcon];
-    puts("Reached");
+    //puts("Reached");
     
     return NSApplicationMain(argc, (const char **)argv);
 }
