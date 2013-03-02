@@ -9,6 +9,7 @@
 script SBTAppDelegate
 	property parent : class "NSObject"
     property statusBar : class "statusItem"
+    property window_ : class "NSWindow"
 	
 	on applicationWillFinishLaunching_(aNotification)
 		-- Insert code here to initialize your application before any files are opened
@@ -33,6 +34,8 @@ script SBTAppDelegate
             set aBrowser to "-a Safari "
         else if appIsRunning("Google Chrome")
             set aBrowser to "-a 'Google Chrome' "
+        else if appIsRunning("Google Chrome Canary") then
+            set aBrowser to "-a 'Google Chrome Canary' "
         end if
         set aPort to do shell script "grep -i 'web_port' /Applications/Sick-Beard/config.ini | sed s/'web_port = '//g"
         set aHost to do shell script "grep -i 'web_host' /Applications/Sick-Beard/config.ini | sed s/'web_host = '//g | sed s/'0.0.0.0'/'localhost'/"
