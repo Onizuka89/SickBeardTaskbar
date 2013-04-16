@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6468E00A1610D83800149459 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6468E0081610D76200149459 /* icon.icns */; };
 		64719DF21612835E00010879 /* sick_beard_index.png in Resources */ = {isa = PBXBuildFile; fileRef = 64719DF11612835E00010879 /* sick_beard_index.png */; };
+		64A722E9171DB3FD00FAC911 /* sickbeard.icns in Resources */ = {isa = PBXBuildFile; fileRef = 64A722E8171DB3FD00FAC911 /* sickbeard.icns */; };
 		64B0C25016105B9600CCCDDA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B0C24F16105B9600CCCDDA /* Cocoa.framework */; };
 		64B0C25216105B9600CCCDDA /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B0C25116105B9600CCCDDA /* AppleScriptObjC.framework */; };
 		64B0C25C16105B9600CCCDDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64B0C25A16105B9600CCCDDA /* InfoPlist.strings */; };
@@ -19,9 +20,22 @@
 		64B0C26F1610698D00CCCDDA /* Menulet.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B0C26E1610698D00CCCDDA /* Menulet.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		64A722E7171DAF6C00FAC911 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = folder.iconset;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# iconutil\n";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXFileReference section */
 		6468E0081610D76200149459 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../icon.icns; sourceTree = "<group>"; };
 		64719DF11612835E00010879 /* sick_beard_index.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sick_beard_index.png; sourceTree = "<group>"; };
+		64A722E8171DB3FD00FAC911 /* sickbeard.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = sickbeard.icns; sourceTree = "<group>"; };
 		64B0C24B16105B9600CCCDDA /* SickBeardTaskbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SickBeardTaskbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B0C24F16105B9600CCCDDA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		64B0C25116105B9600CCCDDA /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
@@ -93,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				6468E0081610D76200149459 /* icon.icns */,
+				64A722E8171DB3FD00FAC911 /* sickbeard.icns */,
 				64B0C26316105B9600CCCDDA /* SBTAppDelegate.applescript */,
 				64B0C26516105B9600CCCDDA /* MainMenu.xib */,
 				64719DF11612835E00010879 /* sick_beard_index.png */,
@@ -127,6 +142,7 @@
 				64B0C24916105B9600CCCDDA /* Resources */,
 			);
 			buildRules = (
+				64A722E7171DAF6C00FAC911 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -172,6 +188,7 @@
 				64B0C26716105B9600CCCDDA /* MainMenu.xib in Resources */,
 				6468E00A1610D83800149459 /* icon.icns in Resources */,
 				64719DF21612835E00010879 /* sick_beard_index.png in Resources */,
+				64A722E9171DB3FD00FAC911 /* sickbeard.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
