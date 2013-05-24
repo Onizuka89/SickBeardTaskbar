@@ -47,7 +47,7 @@ script SBTAppDelegate
     end
     
     on appIsRunning(appName)
-        tell application "System Events" to (name of processes) contains appName
+        -- tell application "System Events" to (name of processes) contains appName
     end appIsRunning
     
 	on applicationShouldTerminate_(sender)
