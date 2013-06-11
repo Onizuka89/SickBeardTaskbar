@@ -17,9 +17,10 @@ script SBTAppDelegate
         -- get file path some how
         set aFolder to ("/Applications/Sick-Beard/" as text)
         set prefix to ("python " as text)
-        set postfix to ("./SickBeard.py --nolaunch > /dev/null 2>&1 &" as text)
+        set postfix to ("./SickBeard.py --nolaunch --daemon -q > /dev/null 2>&1 &" as text)
         set aScript to ("cd "&aFolder&" && "&prefix&postfix as text)
         -- switch when doing actual test, or release compilations
+        -- display dialog aScript
         do shell script aScript
         --set x to do shell script "ping google.com > /dev/null 2>&1 &"
 	end applicationWillFinishLaunching_
